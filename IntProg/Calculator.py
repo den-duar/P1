@@ -15,11 +15,11 @@ while operation != "0":
         n1 = float(input("1 Numero: "))
         n2 = float(input("2 Numero: "))
         if operation == "2":
-            print ("Resultado:" + str(n1-n2))
+            print ("Resultado: ", n1-n2)
         elif operation == "3":
-            print ("Resultado:" + str(n1/n2))
+            print ("Resultado: ", n1/n2)
         elif operation == "4":
-            print ("Resultado:" + str(n1*n2))
+            print ("Resultado: ", n1*n2)
         elif operation == "1":
-            print ("Resultado:" + str(n1+n2))
+            print ("Resultado: ", n1+n2)
 print ("Fechando calculadora")
