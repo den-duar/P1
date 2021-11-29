@@ -1,0 +1,104 @@
+body {
+    font-style: Arial;
+}
+
+#Cabeçalho {
+    background-color: #21272B;
+}
+
+#ImgCabeçalho {
+    display: inline;
+}
+
+#TituloPrincipal {
+    display: inline;
+    color: #1bb4e8;
+    font-size: 22;
+}
+
+#SubtituloPrincipal {
+    display: inline;
+    color: white;
+    font-size: 22;
+}
+
+#Menu {
+    display: inline;
+    float: right;
+}
+
+li {
+    display: inline;
+    float: left;
+    width: 250px;
+}
+
+.MenuTitulo:link {
+    color: white;
+    text-decoration: none;
+}
+
+.MenuTitulo:visited {
+    color: white;
+}
+
+.MenuTitulo:hover {
+    color: blue;
+}
+
+#QuadroImagem {
+    color: white;
+    background-color: #1A3243;
+}
+
+#ImagemPrincipal {
+    position: relative;
+    display: flex;
+}
+
+#QuadroImagem {
+    position: absolute;
+    float: left;
+    width: 21%;
+    bottom: 10%;
+    left: 30%;
+    font-size: 18;
+}
+
+#ImagemQuadro {
+    size: 300px;
+}
+
+em {
+    color: #C6B07F;
+    font-size: 20;
+}
+
+#TituloDestinos {
+    background-color: #1bb4e8;
+    color: white;
+}
+
+#TituloFrota {
+    background-color: #C6B07F;
+    color: white;
+}
+
+#ImagensFrota {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#GradeInf {
+    padding: 20px;
+}
+
+#Destinos {
+    width: 50%;
+    float: left;
+}
+
+#NossaFrota {
+    width: 50%;
+    float: right;
+}
