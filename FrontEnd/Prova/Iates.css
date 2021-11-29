@@ -1,36 +1,61 @@
 body {
     font-style: Arial;
+    width: 53.5%;
 }
 
 #Cabeçalho {
+    display: inline-block;
     background-color: #21272B;
 }
 
 #ImgCabeçalho {
-    display: inline;
+    display: flex;
+    padding: 15px;
+    float: left;
+    position: relative;
+}
+
+#Titulos {
+    display: inline-block;
+    columns: 1;
+    width: 100px;
 }
 
 #TituloPrincipal {
-    display: inline;
+    display: flex;
     color: #1bb4e8;
     font-size: 22;
+    float: left;
+    position: relative;
+    margin: 0px;
+    padding-top: 15px;
 }
 
 #SubtituloPrincipal {
-    display: inline;
+    display: flex;
     color: white;
-    font-size: 22;
+    font-size: 18;
+    float: left;
+    position: relative;
+    width: 180px;
 }
 
 #Menu {
-    display: inline;
+    display: flex;
     float: right;
+    padding-top: 15px;
 }
 
 li {
-    display: inline;
+    font-size: 15;
+    display: flex;
     float: left;
-    width: 250px;
+    padding-left: 25px;
+    width: 128px;
+    height: 20px;
+    border: white;
+    border-right-style: solid;
+    border-right-width: 1px;
 }
 
 .MenuTitulo:link {
@@ -46,32 +71,41 @@ li {
     color: blue;
 }
 
+#ImagemPrincipal {
+    position: relative;
+    display: block;
+}
+
 #QuadroImagem {
     color: white;
     background-color: #1A3243;
-}
-
-#ImagemPrincipal {
-    position: relative;
-    display: flex;
-}
-
-#QuadroImagem {
     position: absolute;
     float: left;
-    width: 21%;
+    width: 41%;
     bottom: 10%;
-    left: 30%;
+    left: 50%;
     font-size: 18;
+    padding-left: 15px;
 }
 
 #ImagemQuadro {
+    display: flex;
     size: 300px;
+    float: left;
+}
+
+#TextoQuadro1 {
+    font-size: 20;
 }
 
 em {
     color: #C6B07F;
     font-size: 20;
+}
+
+#GradeInf {
+    display: inline-block;
+    position: relative;
 }
 
 #TituloDestinos {
@@ -85,20 +119,30 @@ em {
 }
 
 #ImagensFrota {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#GradeInf {
-    padding: 20px;
+    display: block;
+    columns: 2;
 }
 
 #Destinos {
-    width: 50%;
+    display: block;
+    width: 45%;
     float: left;
 }
 
 #NossaFrota {
-    width: 50%;
+    display: block;
+    width: 45%;
     float: right;
+}
+
+.ImgGrade {
+    padding: 5px;
+}
+
+#RodaPe {
+    background-color: rgb(151, 151, 151);
+    height: 45px;
+    padding-top: 5px;
+    font-size: 12;
+    margin-top: 15px;
 }
